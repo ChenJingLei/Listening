@@ -29,6 +29,7 @@ namespace Listening
             Thread t = new Thread(ParStart);
             synth.SelectVoice(comboBox1.Text);
             t.Start(editBox1.Text);
+
         }
 
         private void Speech(object param)
